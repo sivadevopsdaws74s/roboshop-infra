@@ -22,32 +22,32 @@ Ingress: Web instance should accept traffic from internet(0.0.0.0/0) on port no 
 **User**:<br/>
 Ingress: User instance should accept traffic from
 * Web instance on port 8080
-* Payment instance on port 8080 <br/>
+* Payment instance on port 8080<br/>
 **Cart:**<br/>
 Ingress: Cart instance should accept traffic from
 * Web instance on port 8080
 * Shipping instance on port 8080
-* Payment instance on port 8080 <br/>
+* Payment instance on port 8080<br/>
 **Shipping:**<br/>
 Ingress: Shipping instance should accept traffic from
-* Web instance on port 8080 <br/>
+* Web instance on port 8080<br/>
 **Payment:**<br/>
 Ingress: Payment instance should accept traffic from
-* Web instance on port 8080 <br\>
+* Web instance on port 8080<br\>
 **MongoDB:**<br/>
 Ingress: MongoDB instance should accept traffic from
 * Catalogue instance on port no 27017
-* User instance on port no 27017 <br/>
+* User instance on port no 27017<br/>
 **Redis:**<br/>
 Ingress: Redis instance should accept traffic from
 * User instance on port 6379
-* Cart instance on port 6379 <br/>
+* Cart instance on port 6379<br/>
 **MySQL:**<br/>
 Ingress: MySQL instance should accept traffic from
 * Shipping instance on port 3306. <br/>
 **RabbitMQ:**<br/>
 Ingress: RabbitMQ instance should accept traffic from
-* Payment instance on port 5372. <br/>
+* Payment instance on port 5372.<br/>
 
 ![alt text](aws-architecture.jpg)
 
