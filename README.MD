@@ -19,15 +19,18 @@ We require following things.
 
 **Web**:<br/>
 Ingress: Web instance should accept traffic from internet(0.0.0.0/0) on port no 80. <br/>
+
 **User**:<br/>
 Ingress: User instance should accept traffic from
 * Web instance on port 8080
 * Payment instance on port 8080<br/>
+
 **Cart:**<br/>
 Ingress: Cart instance should accept traffic from
 * Web instance on port 8080
 * Shipping instance on port 8080
 * Payment instance on port 8080<br/>
+
 **Shipping:**<br/>
 Ingress: Shipping instance should accept traffic from
 * Web instance on port 8080<br/>
